@@ -1,0 +1,40 @@
+﻿<div class="row">
+    <div class="col-9">
+        <h2 class="text-info"> Order List</h2>
+    </div>
+</div>
+
+@*<form method="post">
+        <div class="row">
+            <div class="col-4">
+                <label>From: </label>
+                <input type="text" id="fromDate" class="form-control datepicker" />
+            </div>
+            <div class="col-4">
+                <label>To: </label>
+                <input type="text" id="toDate" class="form-control datepicker" />
+            </div>
+            <div class="col-4">
+                <label>Find Order:</label>
+                <button type="button" id="findButton" class="form-control"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </form>*@
+
+
+<table id="tblData" class="table table-bordered table-active table-striped">
+    <thead>
+        <tr>
+            <th>OrderHeaderId</th>
+            <th>OrderDate</th>
+            <th>Amount</th>
+            <th>OrderStatus</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+</table>
+@section scripts
+{
+    <script src="~/js/approvedOrders.js"></script>
+    
+}
